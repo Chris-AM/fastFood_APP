@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
 class AppTheme {
-  static const Color primary = Color.fromARGB(255, 184, 20, 28);
+  static const Color primary = Color.fromARGB(255, 22, 30, 193);
   static const Color secondary = Colors.blueGrey;
-  static const Color sliverColor = Color.fromARGB(120, 44, 41, 41);
+  static const Color sliverColor = Color.fromARGB(120, 42, 41, 44);
   static TextStyle listTitle = const TextStyle(
     fontSize: 15,
     fontWeight: FontWeight.bold,
@@ -14,7 +14,6 @@ class AppTheme {
     fontWeight: FontWeight.bold,
     color: Colors.white,
     overflow: TextOverflow.ellipsis,
-    
   );
   static TextStyle movieTitle = const TextStyle(
     fontSize: 25,
@@ -47,7 +46,7 @@ class AppTheme {
     ),
     //text buttons
     textButtonTheme: TextButtonThemeData(
-      style: TextButton.styleFrom(primary: primary),
+      style: TextButton.styleFrom(foregroundColor: primary),
     ),
     //floating buttons
     floatingActionButtonTheme:
@@ -55,7 +54,7 @@ class AppTheme {
     //elevated buttons
     elevatedButtonTheme: ElevatedButtonThemeData(
       style: ElevatedButton.styleFrom(
-        primary: primary,
+        backgroundColor: primary,
         shape: const StadiumBorder(),
         elevation: 0,
       ),
